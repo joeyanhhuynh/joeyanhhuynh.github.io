@@ -2,14 +2,14 @@ $(document).ready(function(){
 
     $( ".right_slide" ).click(function() {
         $( "#slider" ).animate({
-            left: "-=890",
+            left: "-=890"
         }, 1000, function() {
 
         });
     });
     $( ".left_slide" ).click(function() {
         $( "#slider" ).animate({
-            left: "+=890",
+            left: "+=890"
         }, 1000, function() {
 
         });
@@ -20,4 +20,14 @@ $(document).ready(function(){
             scrollTop: $(".porfolio").offset().top
         }, 1000);
     });
+
+/*    $(window).scroll(function (event) {
+        if($(window).scrollTop() > 797 ) {
+            $('.backcolor').fadeIn("fast");
+        } else
+        {
+            $('.backcolor').fadeOut("fast");
+        }
+
+    });*/
 });
