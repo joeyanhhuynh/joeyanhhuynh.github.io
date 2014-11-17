@@ -17,10 +17,34 @@ $(document).ready(function(){
 
     $("button").click(function() {
         $('html, body').animate({
-            scrollTop: $(".porfolio").offset().top
+            scrollTop: $("#porfolio").offset().top
         }, 1000);
     });
 
+
+    $("li.about").click(function() {
+        $('li').removeClass('active');
+        $(this).addClass('active');
+        $('html, body').animate({
+            scrollTop: $("#about").offset().top
+        }, 500);
+    });
+
+    $("li.portfolio").click(function() {
+        $('li').removeClass('active');
+        $(this).addClass('active');
+        $('html, body').animate({
+            scrollTop: $("#porfolio").offset().top
+        }, 500);
+    });
+
+    $("li.contact").click(function() {
+        $('li').removeClass('active');
+        $(this).addClass('active');
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+        }, 500);
+    });
     $(window).scroll(function (event) {
         if($(window).scrollTop() > 797 ) {
             $('.backcolor').fadeIn("fast");
