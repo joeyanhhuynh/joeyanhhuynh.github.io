@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'PT_Serif-Web-Bold';
-    src: url('fonts/PT_Serif-Web-Bold.eot');
-    src: local('☺'), url('fonts/PT_Serif-Web-Bold.woff') format('woff'), url('fonts/PT_Serif-Web-Bold.ttf') format('truetype'), url('fonts/PT_Serif-Web-Bold.svg') format('svg');
+    src: url('../fonts/PT_Serif-Web-Bold.eot');
+    src: local('☺'), url('fonts/PT_Serif-Web-Bold.woff') format('woff'), url('../fonts/PT_Serif-Web-Bold.ttf') format('truetype'), url('../fonts/PT_Serif-Web-Bold.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'MyriadPro-Bold';
-    src: url('fonts/MyriadPro-Bold.eot');
-    src: local('☺'), url('fonts/MyriadPro-Bold.woff') format('woff'), url('fonts/MyriadPro-Bold.ttf') format('truetype'), url('fonts/MyriadPro-Bold.svg') format('svg');
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Bold.woff') format('woff'), url('../fonts/MyriadPro-Bold.ttf') format('truetype'), url('../fonts/MyriadPro-Bold.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'MyriadPro-Light';
-    src: url('fonts/MyriadPro-Light.eot');
-    src: local('☺'), url('fonts/MyriadPro-Light.woff') format('woff'), url('fonts/MyriadPro-Light.ttf') format('truetype'), url('fonts/MyriadPro-Light.svg') format('svg');
+    src: url('../fonts/MyriadPro-Light.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Light.woff') format('woff'), url('../fonts/MyriadPro-Light.ttf') format('truetype'), url('../fonts/MyriadPro-Light.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -57,7 +57,7 @@ p {
 div#header {
     background: url('../images/header.jpg') no-repeat;
     width: 100%;
-    min-height: 547px;
+    min-height: 797px;
     background-size: cover;
 }
 .head_text {
@@ -85,10 +85,15 @@ div#header {
 }
 .about .right h1
 {
+    font-family: MyriadPro-Bold;
+    font-size: 35px;
     color: white;
     text-align: center;
-    letter-spacing: 26px;
+    letter-spacing: 20px;
     text-transform: uppercase;
+    margin-top: 141px;
+    margin-left: -85px;
+
 }
 .about  p.paragraph {
     color: #d6d6d6;
@@ -121,11 +126,15 @@ nav {
 nav ul
 {
     float: right;
+    width: 418px;
 }
 nav ul li {
     float: left;
     list-style: none;
-    padding: 10px;
+    padding: 16px 50px 14px 2px;
+    font-family: PT_Serif-Web-Bold;
+    color: white;
+    font-size: 15px;
 }
 .porfolio .header {
     background: url('../images/porfolio_header.png') no-repeat;
