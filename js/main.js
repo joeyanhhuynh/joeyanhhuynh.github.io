@@ -2,14 +2,14 @@ $(document).ready(function(){
 
     $( ".right_slide" ).click(function() {
         $( "#slider" ).animate({
-            left: "-=890"
+            left: "-=952"
         }, 1000, function() {
 
         });
     });
     $( ".left_slide" ).click(function() {
         $( "#slider" ).animate({
-            left: "+=890"
+            left: "+=952"
         }, 1000, function() {
 
         });
@@ -21,7 +21,7 @@ $(document).ready(function(){
         }, 1000);
     });
 
-/*    $(window).scroll(function (event) {
+    $(window).scroll(function (event) {
         if($(window).scrollTop() > 797 ) {
             $('.backcolor').fadeIn("fast");
         } else
@@ -29,5 +29,5 @@ $(document).ready(function(){
             $('.backcolor').fadeOut("fast");
         }
 
-    });*/
+    });
 });

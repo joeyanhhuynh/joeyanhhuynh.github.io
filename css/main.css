@@ -118,6 +118,8 @@ div#header {
     border-right: 1px solid white;
     text-align: center;
     display: block;
+    margin-top: 84px;
+    width: 118px;
 }
 .about .right button:hover {
     border:1px solid white;
@@ -161,12 +163,13 @@ nav ul li {
     height: 156px;
     width: 423px;
     margin: 0 auto;
-    margin-top: 147px;
-    margin-bottom: 176px;
+    margin-bottom: 175px;
 }
 .porfolio
 {
-    margin:0 auto;
+    margin: 0 auto;
+    margin-bottom: 162px;
+    padding-top: 147px;
 }
 .porfolio img {
     text-align: center;
@@ -176,19 +179,35 @@ nav ul li {
 
 footer {
     background: #3b3b3b;
-    height: 114px;
+    height: 354px;
     color: white;
     text-align: center;
+    font-family: MyriadPro-Semibold;
+    font-size: 23px;
+    padding-top: 75px;
 }
 footer .back_top {
-    width: 100%;
+    background: url('../images/back_top.png');
+    width: 159px;
+    height: 81px;
+    margin: 0 auto;
+    margin-bottom: 57px;
 }
 
 footer .col1 {
-    width: 33%;float: left;
+    width: 33%;
+    float: left;
+    padding-top: 41px;
+    font-size: 23px;
+    color: #aeaeae;
+
 }
 footer .col2 {
     width: 33%;float: left;
+}
+footer .col2 p
+{
+    font-size: 30px;
 }
 footer .col3 {
     width: 33%;float: left;
@@ -201,33 +220,46 @@ footer .col3 {
 }
 div#slider {
     width: 9999px;
-    height: 485px;
+    height: 322px;
     overflow: hidden;
     position: relative;
     left: 0;
+
 }
 .slider {
     float: left;
+    width: 952px;
 }
 .placeholder {
-    width: 450px;
-    height: 200px;
+    width: 403px;
+    height: 306px;
     display: inline-block;
+    border: 8px solid black;
+    margin-left: 129px;
+    margin-right: 71px;
 }
 
 .description {
-    width: 450px;
-    height: 200px;
+    width: 322px;
+    height: 322px;
     display: inline-block;
+    font-family: MyriadPro-Regular;
+    font-size: 13px;
+    color: #737373;
+    vertical-align: text-bottom;
 }
-
+.description h2{
+    font-family: MyriadPro-Semibold;
+    font-size: 23px;
+    color:black;
+}
 .left_slide {
     background: url('../images/left_slider.png');
     height: 54px;
     width: 45px;
     display: inline-block;
     position: relative;
-    top: -25px;
+    top: -116px;
     left: 61px;
 }
 
@@ -237,8 +269,8 @@ div#slider {
     width: 45px;
     display: inline-block;
     position: relative;
-    top: -22px;
-    left: 42px;
+    top: -111px;
+    left: 61px;
 }
 
 @media (height: 300px) {
