@@ -127,10 +127,7 @@ small, .milli {
   padding: 3.0000rem;
 }
 
-.gutter {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
+
 
 .gutter-half, .gutter-1-2 {
   padding-left: 0.7500rem;
@@ -145,11 +142,10 @@ small, .milli {
 h1, h2, h3, h4, h5, h6,
 .brand {
   color: #5d8432;
-  font-family: "Patua One",serif;
+
 }
 
 .brand-family {
-  font-family: "Patua One",serif;
 }
 
 .brand-color {

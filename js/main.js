@@ -49,7 +49,7 @@ $(document).ready(function(){
         $('li').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({
-            scrollTop: $("#contact").offset().top
+            scrollTop: $("footer").offset().top
         }, 500);
     });
     $(window).scroll(function (event) {
@@ -62,3 +62,4 @@ $(document).ready(function(){
 
     });
 });
+
