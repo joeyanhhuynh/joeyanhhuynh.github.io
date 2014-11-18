@@ -1,15 +1,17 @@
 $(document).ready(function(){
 
     $( ".right_slide" ).click(function() {
+        if(parseInt($('#slider').css('left'))>-4500)
         $( "#slider" ).animate({
-            left: "-=952"
+            left: "-=895"
         }, 1000, function() {
 
         });
     });
     $( ".left_slide" ).click(function() {
+        if(parseInt($('#slider').css('left'))<0)
         $( "#slider" ).animate({
-            left: "+=952"
+            left: "+=895"
         }, 1000, function() {
 
         });
