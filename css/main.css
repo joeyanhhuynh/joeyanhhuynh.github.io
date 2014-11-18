@@ -347,8 +347,8 @@ div#slider {
         height: 54px;
         width: 45px;
         position: absolute;
-        left: 140px;
-        top: 0;
+        left: 0px;
+        top: -64px;
     }
 
     .right_slide {
@@ -356,8 +356,8 @@ div#slider {
         height: 54px;
         width: 45px;
         position: absolute;
-        right: 140px;
-        top: 0;
+        right: 0px;
+        top: -64px;
     }
 
     .head_text {
