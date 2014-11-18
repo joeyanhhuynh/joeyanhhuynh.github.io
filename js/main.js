@@ -30,6 +30,13 @@ $(document).ready(function(){
         }, 500);
     });
 
+    $(".back_top").click(function() {
+        $('li').removeClass('active');
+        $('html, body').animate({
+            scrollTop: $("#header").offset().top
+        }, 500);
+    });
+
     $("li.portfolio").click(function() {
         $('li').removeClass('active');
         $(this).addClass('active');

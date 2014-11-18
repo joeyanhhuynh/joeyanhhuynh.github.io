@@ -174,7 +174,7 @@ nav ul li a
 
 
 #porfolio .header {
-    background: url('../images/porfolio_header.png') no-repeat;
+    background: url('../images/portfolio_header.png') no-repeat;
     height: 156px;
     width: 423px;
     margin: 0 auto;
@@ -185,6 +185,7 @@ nav ul li a
     margin: 0 auto;
     margin-bottom: 162px;
     padding-top: 147px;
+    width: 90%;
 }
 #porfolio img {
     text-align: center;
@@ -231,7 +232,6 @@ footer .col3 {
     width: 952px;
     overflow: hidden;
     margin: 0 auto;
-    display: inline-block;
 }
 div#slider {
     width: 9999px;
@@ -272,20 +272,19 @@ div#slider {
     background: url('../images/left_slider.png');
     height: 54px;
     width: 45px;
-    display: inline-block;
-    position: relative;
-    top: -116px;
-    left: 61px;
+    position: absolute;
+    left: 72px;
+    margin-top: 138px;
+
 }
 
 .right_slide {
     background: url('../images/right_slider.png');
     height: 54px;
     width: 45px;
-    display: inline-block;
-    position: relative;
-    top: -111px;
-    left: 61px;
+    position: absolute;
+    right: 66px;
+
 }
 
 @media (height: 300px) {
