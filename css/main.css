@@ -91,7 +91,7 @@ div#header {
     margin-bottom: 26px;
     margin-top: -6px;
 }
-#about .right h1
+#about  h1
 {
     font-family: MyriadPro-Bold;
     font-size: 35px;
@@ -112,7 +112,7 @@ div#header {
     font-family: MyriadPro-Light;
     font-size:16px;
 }
-#about .right button {
+#about  button {
     padding: 10px;
     margin: 0 auto;
     border: none;
@@ -126,7 +126,7 @@ div#header {
     margin-top: 40px;
     width: 118px;
 }
-#about .right button:hover {
+#about  button:hover {
     border:1px solid white;
     background: white;
     color:black;
@@ -238,7 +238,7 @@ footer .col3 {
     width: 33%;float: left;
 }
 .slider_holder {
-    width: 952px;
+    width: 90%;
     overflow: hidden;
     margin: 0 auto;
     position: relative;
@@ -253,15 +253,15 @@ div#slider {
 }
 .slider {
     float: left;
-    width: 952px;
+    width: 90%;
 }
 .placeholder {
     width: 403px;
     height: 306px;
     display: inline-block;
     border: 8px solid black;
-    margin-left: 129px;
-    margin-right: 71px;
+    margin: 0 auto;
+    margin-right: 50px;
 }
 
 .description {
