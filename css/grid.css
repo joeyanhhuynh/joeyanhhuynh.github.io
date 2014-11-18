@@ -2,25 +2,17 @@
     margin: 0;
     padding: 0;
     letter-spacing: -0.31em;
-    text-rendering: optimizespeed;
-    display: -webkit-flex;
-    -webkit-flex-flow: row wrap;
-    display: -ms-flexbox;
-    -ms-flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.grid-bottom {
-    -webkit-align-items: flex-end;
-    -ms-align-items: flex-end;
-}
 
-.opera-only :-o-prefocus, .grid {
+.grid {
     word-spacing: -0.43em;
 }
 
 .unit {
     letter-spacing: normal;
-    text-rendering: auto;
     vertical-align: top;
     word-spacing: normal;
     display: inline-block;
