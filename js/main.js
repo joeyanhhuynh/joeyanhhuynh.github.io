@@ -64,6 +64,7 @@ $(document).ready(function () {
 
 
     $("li.about").click(function () {
+        $('nav').removeClass('menu_show');
         $('li').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({
@@ -72,6 +73,7 @@ $(document).ready(function () {
     });
 
     $(".back_top").click(function () {
+        $('nav').removeClass('menu_show');
         $('li').removeClass('active');
         $('html, body').animate({
             scrollTop: $("#header").offset().top
@@ -79,6 +81,7 @@ $(document).ready(function () {
     });
 
     $("li.portfolio").click(function () {
+        $('nav').removeClass('menu_show');
         $('li').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({
@@ -87,6 +90,7 @@ $(document).ready(function () {
     });
 
     $("li.contact").click(function () {
+        $('nav').removeClass('menu_show');
         $('li').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({

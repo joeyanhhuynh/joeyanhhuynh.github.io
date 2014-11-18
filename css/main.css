@@ -72,6 +72,7 @@ div#header {
     width: 100%;
     min-height: 547px;
     background-size: cover;
+    background-position: right;
 }
 
 #about .right {
@@ -341,7 +342,29 @@ div#slider {
     }
 }
 
+@media (max-width: 799px) {
+    .unit-s-1 {
+        position: relative;
+    }
+
+    .mobile_2 {
+        top: -60px;
+    }
+
+    .mobile_1 {
+        top: 113px;
+    }
+
+    .mobile_3 {
+        top: -50px;
+    }
+}
+
 @media (max-width: 580px) {
+    div#header {
+        min-height: 350px;
+    }
+
     .left_slide {
         background: url('../images/left_slider.png');
         height: 54px;
@@ -363,7 +386,7 @@ div#slider {
     .head_text {
 
         width: 90%;
-
+        top: 144px;
         background-size: contain;
     }
 
@@ -371,22 +394,6 @@ div#slider {
         width: 90%;
 
         background-size: contain;
-    }
-
-    .unit-s-1 {
-        position: relative;
-    }
-
-    .mobile_2 {
-        top: -60px;
-    }
-
-    .mobile_1 {
-        top: 113px;
-    }
-
-    .mobile_3 {
-        top: -50px;
     }
 
     nav ul li {
@@ -401,7 +408,7 @@ div#slider {
 
     .mobile_menu {
         display: block;
-        background: url('../images/mobile_menu.png') no-repeat;
+        background: black url('../images/mobile_menu.png') no-repeat;
         width: 64px;
         height: 47px;
         position: fixed;
@@ -423,11 +430,35 @@ div#slider {
         position: fixed;
         right: 0;
         top: 52px;
+        height: 167px;
+    }
+}
+
+@media (max-width: 460px) {
+    #portfolio img, .description {
+        width: 225px;
+        margin-left: 0;
+    }
+
+    .placeholder {
+        border: 8px solid transparent;
+        height: auto;
+    }
+
+    .slider_holder {
+        width: 225px;
     }
 }
 
 @media (max-width: 319px) {
     #about h1 {
-        font-size: 23px;
+        font-size: 20px;
+    }
+
+    .unit-s-1 {
+        display: block;
+        visibility: visible;
+        width: 100%;
+        font-size: 17px;
     }
 }
