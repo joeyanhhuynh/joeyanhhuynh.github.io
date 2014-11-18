@@ -99,13 +99,18 @@ div#header {
     text-align: center;
     letter-spacing: 20px;
     text-transform: uppercase;
-    margin-top: 81px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 18px;
 
 }
 #about  p.paragraph {
     color: #d6d6d6;
     text-align: center;
     line-height: 1.3;
+    font-family: MyriadPro-Light;
+    font-size:16px;
 }
 #about .right button {
     padding: 10px;
@@ -118,7 +123,7 @@ div#header {
     border-right: 1px solid white;
     text-align: center;
     display: block;
-    margin-top: 84px;
+    margin-top: 40px;
     width: 118px;
 }
 #about .right button:hover {
@@ -173,26 +178,30 @@ nav ul li a
 }
 
 
-#porfolio .header {
+#portfolio .header {
     background: url('../images/portfolio_header.png') no-repeat;
-    height: 156px;
-    width: 423px;
+    height: 118px;
+    width: 660px;
     margin: 0 auto;
-    margin-bottom: 175px;
+    margin-bottom: 94px;
 }
-#porfolio
+#portfolio
 {
     margin: 0 auto;
     margin-bottom: 162px;
     padding-top: 147px;
     width: 90%;
 }
-#porfolio img {
+#portfolio img {
     text-align: center;
     margin: 0 auto;
     display: block;
 }
 
+.portfolio
+{
+    position: relative;
+}
 footer {
     background: #3b3b3b;
     height: 354px;
@@ -232,6 +241,7 @@ footer .col3 {
     width: 952px;
     overflow: hidden;
     margin: 0 auto;
+    position: relative;
 }
 div#slider {
     width: 9999px;
@@ -273,9 +283,8 @@ div#slider {
     height: 54px;
     width: 45px;
     position: absolute;
-    left: 72px;
-    margin-top: 138px;
-
+    left: -5%;
+    top: 136px;
 }
 
 .right_slide {
@@ -283,13 +292,8 @@ div#slider {
     height: 54px;
     width: 45px;
     position: absolute;
-    right: 66px;
+    right: -5%;
+    top: 136px;
 
 }
 
-@media (height: 300px) {
-    nav
-    {
-        background:transparent;
-    }
-}

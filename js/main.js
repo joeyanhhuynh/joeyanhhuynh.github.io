@@ -41,7 +41,7 @@ $(document).ready(function(){
         $('li').removeClass('active');
         $(this).addClass('active');
         $('html, body').animate({
-            scrollTop: $("#porfolio").offset().top
+            scrollTop: $("#portfolio").offset().top
         }, 500);
     });
 
