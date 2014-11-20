@@ -1,5 +1,8 @@
 $(document).ready(function () {
-
+    $( window ).resize(function() {
+        if (parseInt($('#slider').css('left')) != 0)
+        $("#slider").css('left','0px');
+    });
     $('.mobile_menu').click(function () {
         $('nav').toggleClass('menu_show');
     });
@@ -9,7 +12,7 @@ $(document).ready(function () {
         if ($(window).width() > 991) {
 
 
-            if (parseInt($('#slider').css('left')) > -4500)
+            if (parseInt($('#slider').css('left')) > -7000)
                 $("#slider").animate({
                     left: "-=895"
                 }, 1000, function () {
@@ -19,7 +22,7 @@ $(document).ready(function () {
         else {
 
 
-            if (parseInt($('#slider').css('left')) > -2100)
+            if (parseInt($('#slider').css('left')) > -3300)
                 $("#slider").animate({
                     left: "-=419"
                 }, 1000, function () {

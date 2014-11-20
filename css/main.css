@@ -208,7 +208,6 @@ nav ul li a {
 
 footer {
     background: #3b3b3b;
-    height: 354px;
     color: white;
     text-align: center;
     font-family: MyriadPro-Semibold;
@@ -219,6 +218,7 @@ footer {
 footer a {
     text-decoration: none;
     border: none;
+    color: white;
 }
 
 footer .back_top {
@@ -226,7 +226,7 @@ footer .back_top {
     width: 159px;
     height: 81px;
     margin: 0 auto;
-    margin-bottom: 57px;
+    margin-bottom: 100px;
 }
 
 footer .col1 {
@@ -243,6 +243,27 @@ footer .col2 {
     float: left;
 }
 
+footer .mobile_1
+{
+    font-size: 15px;
+    color: #aeaeae;
+    margin-top: 45px;
+    font-family: MyriadPro-Semibold;
+}
+footer .mobile_2
+{
+    font-size: 24px;
+    font-family: MyriadPro-Semibold;
+}
+footer .mobile_2 a
+{
+    font-size: 19px;
+    font-family: MyriadPro-Semibold;
+}
+footer .mobile_3{
+    margin-top: 31px;
+    font-family: MyriadPro-Semibold;
+}
 footer .col2 p {
     font-size: 30px;
 }
@@ -299,22 +320,23 @@ div#slider {
 }
 
 .left_slide {
-    background: url('../images/left_slider.png');
+    background: url('../images/left_slider.png') no-repeat;
     height: 54px;
     width: 45px;
     position: absolute;
     left: -5%;
     top: 136px;
+    background-size: 31px;
 }
 
 .right_slide {
-    background: url('../images/right_slider.png');
+    background: url('../images/right_slider.png') no-repeat;
     height: 54px;
     width: 45px;
     position: absolute;
     right: -5%;
     top: 136px;
-
+    background-size: 31px;
 }
 
 .mobile_menu {
@@ -325,6 +347,7 @@ div#slider {
     .placeholder {
         display: block;
         margin: 0 auto;
+        margin-bottom: 23px;
     }
 
     .slider_holder {
@@ -366,21 +389,14 @@ div#slider {
     }
 
     .left_slide {
-        background: url('../images/left_slider.png');
-        height: 54px;
-        width: 45px;
-        position: absolute;
-        left: 0px;
-        top: -64px;
+
+        left: -10px;
+        top: 140px;
     }
 
     .right_slide {
-        background: url('../images/right_slider.png');
-        height: 54px;
-        width: 45px;
-        position: absolute;
-        right: 0px;
-        top: -64px;
+        right: -10px;
+        top: 140px;
     }
 
     .head_text {
@@ -435,6 +451,10 @@ div#slider {
 }
 
 @media (max-width: 460px) {
+    .right_slide, .left_slide
+    {
+        top: 71px;
+    }
     #portfolio img, .description {
         width: 225px;
         margin-left: 0;
