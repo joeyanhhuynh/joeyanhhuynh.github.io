@@ -196,6 +196,10 @@ nav ul li a {
     width: 90%;
 }
 
+#portfolio a.col-sm-4
+{
+    margin-bottom: 28px;
+}
 #portfolio img {
     text-align: center;
     margin: 0 auto;
@@ -458,6 +462,7 @@ div#slider {
     #portfolio img, .description {
         width: 225px;
         margin-left: 0;
+        margin:0 auto;
     }
 
     .placeholder {
