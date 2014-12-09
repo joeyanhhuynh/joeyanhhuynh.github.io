@@ -49,14 +49,14 @@ p {
 }
 
 div#header {
-    background: url('../images/header.jpg') no-repeat;
+    background: url('../s/header.jpg') no-repeat;
     width: 100%;
     min-height: 797px;
     background-size: cover;
 }
 
 .head_text {
-    background: url('../images/header_text.png') no-repeat;
+    background: url('../s/header_text.png') no-repeat;
     width: 545px;
     height: 41px;
     margin: 0 auto;
@@ -68,7 +68,7 @@ div#header {
 }
 
 #about {
-    background: url('../images/about_bg.jpg');
+    background: url('../s/about_bg.jpg');
     width: 100%;
     min-height: 547px;
     background-size: cover;
@@ -182,7 +182,7 @@ nav ul li a {
 }
 
 #portfolio .header {
-    background: url('../images/portfolio_header.png') no-repeat;
+    background: url('../s/portfolio_header.png') no-repeat;
     height: 118px;
     width: 660px;
     margin: 0 auto;
@@ -226,7 +226,7 @@ footer a {
 }
 
 footer .back_top {
-    background: url('../images/back_top.png');
+    background: url('../s/back_top.png');
     width: 159px;
     height: 81px;
     margin: 0 auto;
@@ -324,7 +324,7 @@ div#slider {
 }
 
 .left_slide {
-    background: url('../images/left_slider.png') no-repeat;
+    background: url('../s/left_slider.png') no-repeat;
     height: 54px;
     width: 45px;
     position: absolute;
@@ -334,7 +334,7 @@ div#slider {
 }
 
 .right_slide {
-    background: url('../images/right_slider.png') no-repeat;
+    background: url('../s/right_slider.png') no-repeat;
     height: 54px;
     width: 45px;
     position: absolute;
@@ -428,7 +428,7 @@ div#slider {
 
     .mobile_menu {
         display: block;
-        background: black url('../images/mobile_menu.png') no-repeat;
+        background: black url('../s/mobile_menu.png') no-repeat;
         width: 64px;
         height: 47px;
         position: fixed;
