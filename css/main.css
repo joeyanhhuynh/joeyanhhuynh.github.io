@@ -217,6 +217,7 @@ footer {
     font-family: MyriadPro-Semibold;
     font-size: 23px;
     padding-top: 75px;
+    padding-bottom: 35px;
 }
 
 footer a {
@@ -230,7 +231,7 @@ footer .back_top {
     width: 159px;
     height: 81px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 71px;
 }
 
 footer .col1 {
