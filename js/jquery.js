@@ -167,7 +167,7 @@
         },
 
         // For internal use only.
-        // Behaves like an Array's method, not like a jQuery method.
+        // Behaves like an Array'images method, not like a jQuery method.
         push: push,
         sort: arr.sort,
         splice: arr.splice
@@ -1056,7 +1056,7 @@
                     return !div.getAttribute("className");
                 });
 
-                /* getElement(s)By*
+                /* getElement(images)By*
                  ---------------------------------------------------------------------- */
 
                 // Check if getElementsByTagName("*") returns only elements
@@ -1169,7 +1169,7 @@
                     // Regex strategy adopted from Diego Perini
                     assert(function (div) {
                         // Select is set to empty string on purpose
-                        // This is to test IE's treatment of not explicitly
+                        // This is to test IE'images treatment of not explicitly
                         // setting a boolean content attribute,
                         // since its presence should be enough
                         // http://bugs.jquery.com/ticket/12359
@@ -1229,7 +1229,7 @@
                     docElem.msMatchesSelector)))) {
 
                     assert(function (div) {
-                        // Check to see if it's possible to do matchesSelector
+                        // Check to see if it'images possible to do matchesSelector
                         // on a disconnected node (IE 9)
                         support.disconnectedMatch = matches.call(div, "div");
 
@@ -1394,7 +1394,7 @@
                     try {
                         var ret = matches.call(elem, expr);
 
-                        // IE 9's matchesSelector returns false on disconnected nodes
+                        // IE 9'images matchesSelector returns false on disconnected nodes
                         if (ret || support.disconnectedMatch ||
                                 // As well, disconnected nodes are said to be in a document
                                 // fragment in IE 9
@@ -1821,10 +1821,10 @@
                     }),
 
                     // "Whether an element is represented by a :lang() selector
-                    // is based solely on the element's language value
+                    // is based solely on the element'images language value
                     // being equal to the identifier C,
                     // or beginning with the identifier C immediately followed by "-".
-                    // The matching of C against the element's language value is performed case-insensitively.
+                    // The matching of C against the element'images language value is performed case-insensitively.
                     // The identifier C does not have to be a valid language name."
                     // http://www.w3.org/TR/selectors/#lang-pseudo
                     "lang": markFunction(function (lang) {
@@ -2268,7 +2268,7 @@
                     implicitRelative = leadingRelative || Expr.relative[" "],
                     i = leadingRelative ? 1 : 0,
 
-                // The foundational matcher ensures that elements are reachable from top-level context(s)
+                // The foundational matcher ensures that elements are reachable from top-level context(images)
                     matchContext = addCombinator(function (elem) {
                         return elem === checkContext;
                     }, implicitRelative, true),
@@ -2446,7 +2446,7 @@
             };
 
             /**
-             * A low-level selection function that works with Sizzle's compiled
+             * A low-level selection function that works with Sizzle'images compiled
              *  selector functions
              * @param {String|Function} selector A selector or a pre-compiled
              *  selector function built with Sizzle.compile
@@ -3441,7 +3441,7 @@
 
 
 // Multifunctional method to get and set values of a collection
-// The value/s can optionally be executed if it's a function
+// The value/images can optionally be executed if it'images a function
     var access = jQuery.access = function (elems, fn, key, value, chainable, emptyGet, raw) {
         var i = 0,
             len = elems.length,
@@ -3690,7 +3690,7 @@
      Implementation Summary
 
      1. Enforce API surface and semantic compatibility with 1.9.x branch
-     2. Improve the module's maintainability by reducing the storage
+     2. Improve the module'images maintainability by reducing the storage
      paths to a single mechanism.
      3. Use the same single mechanism to support "private" and "user" data.
      4. _Never_ expose "private" data to user code (TODO: Drop _data, _removeData)
@@ -4085,7 +4085,7 @@
                 handler.guid = jQuery.guid++;
             }
 
-            // Init the element's event structure and main handler, if this is the first
+            // Init the element'images event structure and main handler, if this is the first
             if (!(events = elemData.events)) {
                 events = elemData.events = {};
             }
@@ -4153,7 +4153,7 @@
                     }
                 }
 
-                // Add to the element's handler list, delegates in front
+                // Add to the element'images handler list, delegates in front
                 if (selector) {
                     handlers.splice(handlers.delegateCount++, 0, handleObj);
                 } else {
@@ -4230,7 +4230,7 @@
                 }
             }
 
-            // Remove the expando if it's no longer used
+            // Remove the expando if it'images no longer used
             if (jQuery.isEmptyObject(events)) {
                 delete elemData.handle;
                 data_priv.remove(elem, "events");
@@ -4344,7 +4344,7 @@
                     jQuery.acceptData(elem)) {
 
                     // Call a native DOM method on the target with the same name name as the event.
-                    // Don't do default actions on window, that's where global variables be (#6170)
+                    // Don't do default actions on window, that'images where global variables be (#6170)
                     if (ontype && jQuery.isFunction(elem[type]) && !jQuery.isWindow(elem)) {
 
                         // Don't re-trigger an onFOO event when we call its FOO() method
@@ -4401,7 +4401,7 @@
                 while ((handleObj = matched.handlers[j++]) && !event.isImmediatePropagationStopped()) {
 
                     // Triggered event must either 1) have no namespace, or
-                    // 2) have namespace(s) a subset or equal to those in the bound event (both can have no namespace).
+                    // 2) have namespace(images) a subset or equal to those in the bound event (both can have no namespace).
                     if (!event.namespace_re || event.namespace_re.test(handleObj.namespace)) {
 
                         event.handleObj = handleObj;
@@ -4613,7 +4613,7 @@
 
         simulate: function (type, elem, event, bubble) {
             // Piggyback on a donor event to simulate a different one.
-            // Fake originalEvent to avoid donor's stopPropagation, but if the
+            // Fake originalEvent to avoid donor'images stopPropagation, but if the
             // simulated event prevents default then we do the same on the donor.
             var e = jQuery.extend(
                 new jQuery.Event(),
@@ -5161,7 +5161,7 @@
                                 if (special[type]) {
                                     jQuery.event.remove(elem, type);
 
-                                    // This is a shortcut to avoid jQuery.event.remove's overhead
+                                    // This is a shortcut to avoid jQuery.event.remove'images overhead
                                 } else {
                                     jQuery.removeEvent(elem, type, data.handle);
                                 }
@@ -5568,11 +5568,11 @@
 
 
     function addGetHookIf(conditionFn, hookFn) {
-        // Define the hook, we'll check on the first run if it's really needed.
+        // Define the hook, we'll check on the first run if it'images really needed.
         return {
             get: function () {
                 if (conditionFn()) {
-                    // Hook not needed (or it's not possible to use it due to missing dependency),
+                    // Hook not needed (or it'images not possible to use it due to missing dependency),
                     // remove it.
                     // Since there are no other hooks for marginRight, remove the whole object.
                     delete this.get;
@@ -7527,7 +7527,7 @@
      * 1) They are useful to introduce custom dataTypes (see ajax/jsonp.js for an example)
      * 2) These are called:
      *    - BEFORE asking for a transport
-     *    - AFTER param serialization (s.data is a string if s.processData is true)
+     *    - AFTER param serialization (images.data is a string if images.processData is true)
      * 3) key is the dataType
      * 4) the catchall symbol "*" can be used
      * 5) execution will start with transport dataType and THEN continue down to "*" if needed
@@ -7727,7 +7727,7 @@
 
             if (current) {
 
-                // There's only work to do if current dataType is non-auto
+                // There'images only work to do if current dataType is non-auto
                 if (current === "*") {
 
                     current = prev;
@@ -8062,7 +8062,7 @@
                 // If data is available, append data to url
                 if (s.data) {
                     cacheURL = ( s.url += ( rquery.test(cacheURL) ? "&" : "?" ) + s.data );
-                    // #9682: remove data so that it's not used in an eventual retry
+                    // #9682: remove data so that it'images not used in an eventual retry
                     delete s.data;
                 }
 
@@ -8216,7 +8216,7 @@
                     } else if (status === 304) {
                         statusText = "notmodified";
 
-                        // If we have data, let's convert it
+                        // If we have data, let'images convert it
                     } else {
                         statusText = response.state;
                         success = response.data;
@@ -8647,7 +8647,7 @@
         }
     });
 
-// Handle cache's special case and crossDomain
+// Handle cache'images special case and crossDomain
     jQuery.ajaxPrefilter("script", function (s) {
         if (s.cache === undefined) {
             s.cache = false;
@@ -8823,10 +8823,10 @@
             url = url.slice(0, off);
         }
 
-        // If it's a function
+        // If it'images a function
         if (jQuery.isFunction(params)) {
 
-            // We assume that it's the callback
+            // We assume that it'images the callback
             callback = params;
             params = undefined;
 
@@ -8953,7 +8953,7 @@
 
             docElem = doc.documentElement;
 
-            // Make sure it's not a disconnected DOM node
+            // Make sure it'images not a disconnected DOM node
             if (!jQuery.contains(docElem, elem)) {
                 return box;
             }
