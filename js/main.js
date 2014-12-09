@@ -1,7 +1,7 @@
 $(document).ready(function () {
-    $( window ).resize(function() {
+    $(window).resize(function () {
         if (parseInt($('#slider').css('left')) != 0)
-        $("#slider").css('left','0px');
+            $("#slider").css('left', '0px');
     });
     $('.mobile_menu').click(function () {
         $('nav').toggleClass('menu_show');

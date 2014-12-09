@@ -196,10 +196,10 @@ nav ul li a {
     width: 90%;
 }
 
-#portfolio a.col-sm-4
-{
+#portfolio a.col-sm-4 {
     margin-bottom: 28px;
 }
+
 #portfolio img {
     text-align: center;
     margin: 0 auto;
@@ -247,27 +247,28 @@ footer .col2 {
     float: left;
 }
 
-footer .mobile_1
-{
+footer .mobile_1 {
     font-size: 15px;
     color: #aeaeae;
     margin-top: 45px;
     font-family: MyriadPro-Semibold;
 }
-footer .mobile_2
-{
+
+footer .mobile_2 {
     font-size: 24px;
     font-family: MyriadPro-Semibold;
 }
-footer .mobile_2 a
-{
+
+footer .mobile_2 a {
     font-size: 19px;
     font-family: MyriadPro-Semibold;
 }
-footer .mobile_3{
+
+footer .mobile_3 {
     margin-top: 31px;
     font-family: MyriadPro-Semibold;
 }
+
 footer .col2 p {
     font-size: 30px;
 }
@@ -455,14 +456,14 @@ div#slider {
 }
 
 @media (max-width: 460px) {
-    .right_slide, .left_slide
-    {
+    .right_slide, .left_slide {
         top: 71px;
     }
+
     #portfolio img, .description {
         width: 225px;
         margin-left: 0;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
     .placeholder {

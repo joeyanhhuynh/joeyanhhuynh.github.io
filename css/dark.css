@@ -4,6 +4,7 @@
     opacity: 0.95;
     background-color: #333333;
 }
+
 .ekko-lightbox .modal-content {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -14,11 +15,13 @@
     border: none;
     background-color: transparent;
 }
+
 .ekko-lightbox .modal-header {
     border: 0;
     padding-left: 0;
     padding-right: 0;
 }
+
 .ekko-lightbox .modal-header .close {
     -webkit-opacity: 0.5;
     -moz-opacity: 0.5;
@@ -28,19 +31,23 @@
     font-weight: 100;
     margin-top: 5px;
 }
+
 .ekko-lightbox .modal-header .close:hover {
     -webkit-opacity: 1;
     -moz-opacity: 1;
     opacity: 1;
 }
+
 .ekko-lightbox .modal-header h4.modal-title {
     font-weight: 100;
     color: #fff;
     padding: 0;
 }
+
 .ekko-lightbox .modal-body {
     padding: 0;
 }
+
 .ekko-lightbox .modal-footer {
     -webkit-opacity: 0.9;
     -moz-opacity: 0.9;
@@ -50,6 +57,7 @@
     font-weight: 100;
     padding: 0;
 }
+
 .ekko-lightbox-nav-overlay a {
     -webkit-opacity: 0.9;
     -moz-opacity: 0.9;
