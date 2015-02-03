@@ -226,7 +226,7 @@ footer a {
 }
 
 footer .back_top {
-    background: url('../images/back_top.png');
+    background: url('../images/back_top.png') no-repeat;
     width: 159px;
     height: 81px;
     margin: 0 auto;
