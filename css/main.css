@@ -375,6 +375,12 @@ div#slider {
 }
 
 @media (max-width: 799px) {
+    footer .back_top {
+        bottom: 19px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
     .unit-s-1 {
         position: relative;
     }
