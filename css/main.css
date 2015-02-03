@@ -229,10 +229,12 @@ footer a {
 footer .back_top {
     background: url('../images/back_top.png') no-repeat;
     width: 48px;
-    height: 40px;
+    height: 26px;
     position: absolute;
-    bottom: 35px;
-    right: 30px;
+    bottom: 38px;
+    right: 13px;
+    background-size: contain;
+    background-position: center center;
 }
 
 footer .col1 {
