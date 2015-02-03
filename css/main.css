@@ -217,6 +217,7 @@ footer {
     font-size: 23px;
     padding-top: 75px;
     padding-bottom: 35px;
+    position: relative;
 }
 
 footer a {
@@ -229,8 +230,9 @@ footer .back_top {
     background: url('../images/back_top.png') no-repeat;
     width: 48px;
     height: 40px;
-    margin: 0 auto;
-    margin-bottom: 71px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 footer .col1 {
