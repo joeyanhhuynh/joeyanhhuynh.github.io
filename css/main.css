@@ -58,7 +58,6 @@ div#header {
 .head_text {
     background: url('../images/logo.png') no-repeat;
     width: 545px;
-    height: 41px;
     margin: 0 auto;
     position: absolute;
     top: 404px;
